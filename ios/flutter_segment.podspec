@@ -19,11 +19,11 @@ Library to let Flutter apps use Segment.io
   s.dependency 'Flutter'
   s.dependency 'Analytics', '4.1.6'
   s.dependency 'Segment-Amplitude', '3.3.2'
-  #s.dependency 'segment-appsflyer-ios', :git => 'https://github.com/totzk9/segment-appsflyer-ios.git', :branch => 'master'
+  s.dependency 'segment-appsflyer-ios'
   s.ios.deployment_target = '11.0'
 
   # Added because Segment-Amplitude dependencies on iOS cause this error:
   # [!] The 'Pods-Runner' target has transitive dependencies that include statically linked binaries: (Segment-Amplitude)
   s.static_framework = true
-end
+endé
 
